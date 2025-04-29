@@ -1,0 +1,7 @@
+<h1>Your Dreams</h1>
+<ul>
+  {% for dream in dreams %}
+    <li><strong>{{ dream.title }}</strong>: {{ dream.content }}</li>
+  {% endfor %}
+</ul>
+<a href="/logout">Logout</a>
